@@ -1,0 +1,35 @@
+1. ¿Qué es un branch?
+Un branch (rama) permite trabajar en características o correcciones de errores sin afectar el código principal.
+2.¿Por qué pueden ser útiles los branches?
+Los branches son útiles porque permiten:
+-Trabajar en características o correcciones de errores de manera independiente.
+-Realizar experimentos o pruebas sin afectar el código principal.
+-Colaborar con otros desarrolladores en características o correcciones de errores específicas.
+3.¿Cómo se crea una branch?
+Se crea una branch utilizando el comando git branch <nombre-branch>
+4.¿Cómo se cambia a una branch?
+Se cambia a una branch utilizando el comando git checkout <nombre-branch>. 
+5. ¿Cómo se elimina una branch?
+Se elimina una branch utilizando el comando git branch -d <nombre-branch>
+6.¿Cómo se crea una branch y se cambia a ella en un solo paso?
+Se crea una branch y se cambia a ella en un solo paso utilizando el comando git checkout -b <nombre-branch>.
+7.¿Qué es un merge?
+Un merge es la acción de combinar los cambios realizados en una branch con los cambios realizados en otra branch.
+8.¿Cómo se realiza un merge?
+Se realiza un merge utilizando el comando git merge <nombre-branch>
+9. ¿Qué es un tag?
+Un tag es una referencia a un punto específico en la historia de un repositorio Git. Se utiliza para marcar versiones o hitos importantes.
+10. ¿Cómo se crea un tag?
+Se crea un tag utilizando el comando git tag <nombre-tag>.
+
+Practica.
+6. indica todos los commits realizados mostrando el brache donde se encuentra ubicado.
+10. indica todos los commits incluyendo el ultimo realizado de anana debajo del queso en el Branch anana
+13. se agrego el commit respectivo de la cebolla debajo de la salsa en el respectivo Branch main
+15. muestra la combinación de el Branch anana en el Branch de main
+16. las Branch que están margeadas a main es anana.
+18. al igual que anana se realizo la combinación del contenido de experimeto en main
+20. git branch --merged
+	anana
+  	experimento
+23. Main ya no contiene ningún Branch margeado ya que se elimino anana y experimento
