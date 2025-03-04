@@ -1,0 +1,39 @@
+1¿Qué es un conflicto? Cuando ocurre? ¿Es bueno o malo?
+Un conflicto en Git ocurre cuando dos o más cambios en el mismo archivo
+no pueden ser fusionados automáticamente. 
+
+
+2¿Se puede evitar un conflicto? ¿Cómo?
+Aunque no se puede evitar completamente, hay algunas estrategias:
+Branches: Utiliza branches separados para trabajar en características o correcciones de errores específicas.
+
+Commits frecuentes: Realiza commits frecuentes para evitar acumular muchos cambios en un solo commit.
+
+Ejercicio Practico.
+
+10. git diff main suprema: muestra los diferentes cambios que se han realizado a milanesa.txt
+
+11. On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   milanesa.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Herman_Bastidas.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+12. funciono correctamente:
+ git merge bife
+Already up to date.
+
+13. solicita que realice commits para poder ejecutar un merge.
+
+14. muestra los cambios sin commit y los archivos sin seguimiento.
+
+15. se junto el contenido de milanesa.txt del Branch bife
+
